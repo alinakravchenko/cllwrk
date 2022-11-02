@@ -1,4 +1,4 @@
-namespace cllwrk
+п»їnamespace cllwrk
 {
     public partial class Form1 : Form
     {
@@ -7,9 +7,9 @@ namespace cllwrk
             InitializeComponent();
         }
 
-        private void lightToolStripMenuItem_Click(object sender, EventArgs e) //обработчик светлой кнопки
+        private void lightToolStripMenuItem_Click(object sender, EventArgs e) //РѕР±СЂР°Р±РѕС‚С‡РёРє СЃРІРµС‚Р»РѕР№ РєРЅРѕРїРєРё
         {
-            ToolStripMenuItem it = (ToolStripMenuItem)sender; //создаёт объект, которому присваивается объект события 
+            ToolStripMenuItem it = (ToolStripMenuItem)sender; //СЃРѕР·РґР°С‘С‚ РѕР±СЉРµРєС‚, РєРѕС‚РѕСЂРѕРјСѓ РїСЂРёСЃРІР°РёРІР°РµС‚СЃСЏ РѕР±СЉРµРєС‚ СЃРѕР±С‹С‚РёСЏ 
             if (it.Checked == true)
             {
                 this.BackColor = Color.Purple;
@@ -17,7 +17,7 @@ namespace cllwrk
             mi_theme_Dark.Checked = false;
         }
 
-        private void mi_theme_Dark_Click(object sender, EventArgs e) //обработчик тёмной кнопки
+        private void mi_theme_Dark_Click(object sender, EventArgs e) //РѕР±СЂР°Р±РѕС‚С‡РёРє С‚С‘РјРЅРѕР№ РєРЅРѕРїРєРё
         {
             if (mi_theme_Dark.Checked == true)
             {
